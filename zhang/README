@@ -1,0 +1,17 @@
+The following files should be run in order
+
+step 1:
+simu.sh generates simulation data
+
+step 2:
+run.R run linear regression for the three models DNA+Taxa, DNA, Taxa
+
+step 3:
+summary.R calculate AUC, statistical power
+
+step 4:
+plot.R plot AUC and statistical power
+
+step 5:
+fdrplot.R draw real FDR plots with 0.05 nominal FDR
+

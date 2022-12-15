@@ -1,0 +1,15 @@
+The following .R files should be run in order
+
+step 1: fitting the models
+fit.R   fit the three models on the real data
+
+step 2: plot the partial correlations
+rnadna_abu_cor.R, rnaabu_dna_cor.R  visualize the partial correlations
+bar_cor.R barplots of partial correlations with different data processing
+
+step 3: real data analysis
+pubmed.R  visualize pubmed hit results
+heatmap.R  visualize all differential terms
+single.R  plot RNA abundances of single pathways
+repro.R   perform reproducible analysis
+reproplot.R   visualize reproducible analysis results

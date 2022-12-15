@@ -1,0 +1,2 @@
+make.R  R code to process the downloaded HMP2:IBDMDB data
+proc.rds  processed data stored in .rds format

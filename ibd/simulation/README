@@ -1,0 +1,16 @@
+The following .R files should be run in order
+
+step 1:
+mkdata.R  generate simulation data
+
+step 2:
+run.R   run linear mixed-effect models or linear regression models for the three models DNA+Taxa, DNA, and Taxa
+
+step 3:
+perf.R  get statitical power and AUC performances
+
+step 4:
+plot.R  plot statitical power and AUC performances
+
+step 5:
+fdr.R  plot real FDR at 0.05 nominal FDR
